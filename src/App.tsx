@@ -1,12 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { 
-  MapPin, 
   TrendingUp, 
   LayoutDashboard, 
   CheckCircle2,
   ArrowRight,
   Star,
-  Quote,
   Menu,
   X,
   Instagram,
@@ -371,14 +369,6 @@ function BenefitsSection() {
       title: 'AI Automation',
       desc: 'Smart alerts & predictions'
     }
-  ];
-
-  // Stats with context
-  const stats = [
-    { value: '500+', label: 'Active Vendors', context: 'Trust our platform daily' },
-    { value: '50K+', label: 'Monthly Orders', context: 'Processed seamlessly' },
-    { value: '40%', label: 'Revenue Growth', context: 'Average merchant increase' },
-    { value: '4.8★', label: 'App Rating', context: 'User satisfaction score' }
   ];
 
   return (
