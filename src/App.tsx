@@ -69,12 +69,12 @@ function Navigation() {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
             <a 
-              href="https://www.admin.cateredbyafrica.com/en" 
+              href="https://admin.cateredbyafrica.com" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2D5016] font-medium hover:text-[#E67E22] transition-colors"
             >
-              Login
+              Dashboard
             </a>
             <a 
               href="https://form.jotform.com/222031160957146"
@@ -106,12 +106,12 @@ function Navigation() {
             <a href="#faq" className="block text-[#1A1A1A] font-medium py-2">FAQ</a>
             <hr />
             <a 
-              href="https://www.cateredbyafrica.com/en"
+              href="https://admin.cateredbyafrica.com"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-[#2D5016] font-medium py-2"
             >
-              Login
+              Dashboard
             </a>
             <a 
               href="https://form.jotform.com/222031160957146"
@@ -169,7 +169,7 @@ function HeroSection() {
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 bg-[#4A7C23]/10 text-[#4A7C23] px-4 py-2 rounded-full text-sm font-medium">
                 <Star className="w-4 h-4 fill-current"/>
-                <span>Join 500+ African Vendors</span>
+                <span>Join 100+ African Vendors</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#2D5016] leading-tight">
                 Grow Your{' '}
@@ -192,12 +192,12 @@ function HeroSection() {
                 <ArrowRight className="w-5 h-5"/>
               </a>
               <a 
-                href="https://www.cateredbyafrica.com/en"
+                href="https://admin.cateredbyafrica.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary flex items-center justify-center gap-2 text-lg"
               >
-                Login to Dashboard
+                Go to Dashboard
               </a>
             </div>
 
@@ -357,7 +357,7 @@ function BenefitsSection() {
     {
       icon: Shield,
       title: 'Secure Payments',
-      desc: 'Stripe, PayPal & more integrated'
+      desc: 'Stripe, Buy Now Pay Later & more integrated'
     },
     {
       icon: Smartphone,
@@ -399,7 +399,7 @@ function BenefitsSection() {
           </h2>
           
           <p className="text-xl text-[#1A1A1A]/60 max-w-3xl mx-auto leading-relaxed">
-            Join 500+ successful merchants using our AI-enhanced platform to streamline operations, 
+            Join 100+ successful merchants using our AI-enhanced platform to streamline operations, 
             boost sales with smart recommendations, and communicate seamlessly with customers and drivers.
           </p>
         </div>
